@@ -28,3 +28,12 @@
 
     console.log(a([1,2,3]));
     console.log(a([1,2,3,4,5]));
+
+#### Part Three - Bonus
+
+Write a function that takes an array as an arguement and returns an array of the Min, Max, and Avg of the arrays values
+    function MinMaxAvg(arr) {
+        // code here
+    }
+    I => [2,8,5,6,9,1,4]
+    O => [1,8,5]
