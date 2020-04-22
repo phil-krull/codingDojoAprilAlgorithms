@@ -32,6 +32,7 @@
 #### Part Three - Bonus
 
 Write a function that takes an array as an arguement and returns an array of the Min, Max, and Avg of the arrays values
+
     function MinMaxAvg(arr) {
         // code here
     }
