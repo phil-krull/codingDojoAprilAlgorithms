@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // this is a javascript html tag
+        console.log('working javascript');
+        function printUpTo(x){
+            if(x < 0) {
+                console.log(false);
+                return false;
+            }
+            // your code here
+
+            // for(var i=1;i<=x;i++){
+            //     console.log(i);
+            // }
+            console.log('x', x)
+            var y = 1;
+            while(y<=x){
+                console.log(y);
+                y++;
+            }
+        }
+        // printUpTo(20); // should print all the integers from 1 to 1000
+        // y = printUpTo(-10); // should return false
+        // console.log(y); 
+        // should print false
+        
+        
+        function printSum(x){
+            if(x > 0){
+                var sum = 0;
+                //your code here
+                for(var i = 0; i<=x;i++){
+                    sum = i+sum;
+                }
+                return sum
+            } else {
+                return "need positive number";
+            }
+        }
+        // y = printSum(-255) // should print all the integers from 0 to 255 and with each integer print the sum so far.
+        // console.log(y) // should print 32640
+
+
+
+
+        function printSumArray(x){
+            var sum = 0;
+            for(var i=0; i<x.length; i++) {
+                //your code here
+                console.log('i is', i);
+                console.log('x[i] is', x[i]);
+                sum = x[i] + sum;
+            }
+            return sum;
+        }
+        console.log( printSumArray([1,2,3]) ); // should log 6
+    </script>
+</head>
+<body>
+    <!-- this is for html -->
+</body>
+</html>
