@@ -13,5 +13,5 @@
 
 #### Part Two
     function invertHash(obj) {}
-    I => {'a':'x', 'b':'y', 'c':'z'}
+    I => invertHash({'a':'x', 'b':'y', 'c':'z'})
     O => {'x':'a', 'y':'b', 'z':'c'}
